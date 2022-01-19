@@ -25,7 +25,6 @@
 
     &__content {
         position: absolute;
-        position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -58,5 +57,18 @@
                 color: #fff;
             }
         }
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .gallery__list {
+        --columns: 1;
+    }
+
+    .gallery__content {
+        width: 100%;
+        position: unset;
+        transform: unset;
+        margin: 0 auto;
     }
 }

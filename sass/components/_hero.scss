@@ -115,3 +115,21 @@
         }
     }
 }
+
+@media screen and (max-width: 1023.98px) {
+    .hero__image,
+    .hero__image-border {
+        display: none;
+    }
+
+    .hero__content {
+        max-width: 100%;
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero__content {
+        padding: 20px;
+    }
+}

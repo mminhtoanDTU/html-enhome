@@ -101,3 +101,17 @@
         }
     }
 }
+
+@media screen and (max-width: 767.98px) {
+    .service__img:not(:first-child) {
+        display: none;
+    }
+
+    .service__circle.light {
+        display: none;
+    }
+
+    .service__content {
+        right: auto;
+    }
+}

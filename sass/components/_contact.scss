@@ -71,3 +71,38 @@
         }
     }
 }
+
+@media screen and (max-width: 1023.98px) {
+    .contact__container {
+        flex-direction: column-reverse;
+    }
+
+    .contact__info {
+        transform: none;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .contact__form {
+        width: 100%;
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .contact__info {
+        --columns: 1;
+
+        &-item {
+            width: 100%;
+        }
+    }
+
+    .contact__form {
+        padding: 30px;
+
+        &-heading {
+            font-size: 25px;
+        }
+    }
+}
